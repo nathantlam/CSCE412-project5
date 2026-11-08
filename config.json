@@ -1,0 +1,20 @@
+{
+  "domain": "csce412nathanlam.me",
+  "bucket": "csce412nathanlam-me-site",
+  "region": "us-east-2",
+  "distribution_id": "E3GXXYV0NZ7SL9",
+  "distribution_domain": "d2bimub6ipqc6i.cloudfront.net",
+  "account_id": "111859959580",
+  "certificate_arn": "arn:aws:acm:us-east-1:111859959580:certificate/d8f93a73-ce3a-4f44-902c-4deee6e18a71",
+  "hosted_zone_id": "Z03906172QB5FBUEDNYFU",
+  "validation_name": "_4440fb4ba73ac65e75519cca9a1dfb3a.csce412nathanlam.me.",
+  "validation_value": "_2dcc07e6a9a6a93aef34d3c8e8ad753e.wzccmgtwzk.acm-validations.aws.",
+  "website_directory": "website",
+  "pages": [
+    "index.html",
+    "about.html",
+    "architecture.html",
+    "explore.html",
+    "verification.html"
+  ]
+}

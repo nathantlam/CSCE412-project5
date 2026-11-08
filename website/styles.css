@@ -1,0 +1,37 @@
+* { box-sizing: border-box; }
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #222;
+  background: white;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+a { color: #0645ad; }
+header { border-bottom: 1px solid #ccc; padding-bottom: 16px; }
+.brand { color: #222; font-size: 20px; font-weight: bold; text-decoration: none; }
+.brand span { font-size: 14px; font-weight: normal; }
+nav { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-top: 12px; }
+nav a[aria-current="page"] { font-weight: bold; }
+main { margin: 28px 0 40px; }
+h1 { font-size: 30px; line-height: 1.25; margin: 12px 0 20px; }
+h2 { font-size: 21px; margin-top: 28px; }
+.eyebrow, .note { color: #555; font-size: 14px; }
+.cards article { margin: 28px 0; }
+.cards article h2 { margin-top: 8px; }
+.cards article span { color: #555; font-size: 13px; }
+.steps { display: flex; flex-wrap: wrap; gap: 10px; }
+button.button { padding: 6px 12px; font: inherit; cursor: pointer; }
+button[aria-pressed="true"] { font-weight: bold; border: 2px solid #222; }
+.diagram { display: block; width: 100%; height: auto; margin: 24px 0; }
+footer { border-top: 1px solid #ccc; padding-top: 16px; font-size: 13px; }
+footer span { display: block; }
+.skip { position: absolute; left: -10000px; }
+.skip:focus { position: static; }
+:focus-visible { outline: 2px solid #0645ad; outline-offset: 3px; }
+@media (max-width: 500px) {
+  body { padding: 16px; }
+  h1 { font-size: 26px; }
+}

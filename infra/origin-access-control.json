@@ -1,0 +1,7 @@
+{
+  "Name":"csce412nathanlam-oac",
+  "Description":"Signed access from CloudFront to the private website bucket",
+  "SigningProtocol":"sigv4",
+  "SigningBehavior":"always",
+  "OriginAccessControlOriginType":"s3"
+}

@@ -1,0 +1,11 @@
+{
+  "Version":"2012-10-17",
+  "Statement":[{
+    "Sid":"AllowConfiguredCloudFrontDistribution",
+    "Effect":"Allow",
+    "Principal":{"Service":"cloudfront.amazonaws.com"},
+    "Action":"s3:GetObject",
+    "Resource":"arn:aws:s3:::csce412nathanlam-me-site/*",
+    "Condition":{"StringEquals":{"AWS:SourceArn":"arn:aws:cloudfront::111859959580:distribution/E3GXXYV0NZ7SL9"}}
+  }]
+}

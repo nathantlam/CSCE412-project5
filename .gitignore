@@ -1,0 +1,20 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+outputs/
+.state/
+tmp/
+*.log
+# Reports, recordings, and execution evidence are submitted separately.
+docs/
+evidence/
+output/
+*.pdf
+*.docx
+*.mp4
+*.mov
+*.zip
